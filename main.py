@@ -27,6 +27,7 @@ def main():#main function that will be called when the script is executed, sets 
         help="Preview changes without actually moving files"
     )
 
+    #creates optional flag: --recursive, allowing users to organize files in subdirectories as well
     parser.add_argument(
         "--recursive",
         action="store_true",
